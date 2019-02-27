@@ -1,0 +1,11 @@
+SELECT * FROM mysql.help_topic;
+SELECT * FROM mysql.help_topic WHERE name = 'COUNT';
+USE employees;
+SHOW CREATE TABLE salaries;
+DESCRIBE salaries;
+SHOW TABLES;
+SELECT * FROM salaries;
+USE sakila;
+SELECT * FROM actor;
+DESCRIBE actor;
+SELECT last_name FROM actor;
